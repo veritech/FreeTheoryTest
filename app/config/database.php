@@ -7,7 +7,7 @@ class DATABASE_CONFIG {
 		'host' => '192.168.144.45',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'theory_test',
+		'database' => 'driving',
 		'encoding' => 'UTF-8'
 	);
 }
