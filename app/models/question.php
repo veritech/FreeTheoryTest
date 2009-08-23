@@ -8,7 +8,7 @@ class Question extends AppModel {
 	var $hasMany = array(
 			'Answer' => array(
 				'classname'=>'Answer',
-				'foreignKey'=>'question_id'
+				'foreignKey'=>'question_id',
 				)
 		);
 	
@@ -31,12 +31,28 @@ class Question extends AppModel {
 	*/
 	function randomListofQuestions( $no ){
 		
-		$sql = "SELECT DISTINCT round(RAND(1000)*1000) AS id FROM Question_master LIMIT $no;";
+		// $sql = "SELECT DISTINCT round(RAND(1000)*1000) AS id FROM Question_master LIMIT $no;";
+		// 
+		//No motorcycle questions
+		// if( !$this->motorcycles ){
+		// 	$sql = "SELECT DISTINCT id FROM Question_master AS Question WHERE id > 164 ORDER BY RAND() LIMIT $no";
+		// }
+		// else{
+		// 	$sql = "SELECT DISTINCT id FROM Question_master AS Question ORDER BY RAND() LIMIT $no";
+		// }
 		
+		$questions = $this->find('all',array(
+			'order'=>'RAND()',
+			'fields'=>'DISTINCT id',
+			'limit'=>$no,
+			'recursive'=>0
+			)
+		);
 		$retVal = array();
 		
-		foreach(  $this->query($sql) as $row ){
-			$retVal[] = $row[0]['id'];
+		foreach(  $questions as $row ){
+			fb($row);
+			$retVal[] = $row['Question']['id'];
 		}
 		
 		return $retVal;

@@ -1,0 +1,43 @@
+/*
+	Jonathan Dalrymple
+*/
+
+fieldset{
+	width:80%;
+}
+.question.view fieldset label{
+	float:left;
+	width: 70%;
+}
+.question.view fieldset input{
+	float:left;
+	width:29%;
+}
+
+
+dl dt.correct, dl dt.wrong{
+	display:block;
+	margin: 0.25em;
+	color:#fff;
+	padding:0.5em;
+}
+dl dt.correct{
+	background: green;
+}
+dl dt.wrong{
+	background: red;
+}
+dl dd li{
+	margin: 0.5em 2em 0.5em;
+	display:block;
+	padding:0.5em;
+}
+dl dd li.user-answer{
+	background: #d6f83a;
+	font-weight:bold;
+
+}
+dl dd li.correct{
+	background: green;
+	color:#fff;
+}
