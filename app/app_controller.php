@@ -35,5 +35,9 @@
  * @subpackage    cake.app
  */
 class AppController extends Controller {
+	
+	var $components = array('Session');
+	var $helpers = array('html','form','session',);
+	
 }
 ?>
