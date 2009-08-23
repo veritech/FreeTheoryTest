@@ -1,34 +1,38 @@
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC. Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+Free the theory is a demonstration project, built at Young Rewired State 2009.
 
-The Cake Software Foundation - promoting development related to CakePHP
-http://www.cakefoundation.org/
+It does two things.
+Lets learner drivers take unlimited, free practice theory tests. 
+Makes the test questions freely available, so that other people can build useful things with them too.
+Our aim is to make it easier to practise the theory test - so that it's easier to learn how to be safe on the roads.
 
-CakePHP - the rapid development PHP framework
-http://www.cakephp.org
+What's wrong with the theory test at the moment?
 
-Cookbook - user documentation for learning about CakePHP
-http://book.cakephp.org
+First, some background: 1.6 million people take the driving theory test each year, mostly young people. It consists of 50 questions, taken from a set of around 1000. The pass rate is low - only 43%.
 
-API - quick reference to CakePHP
-http://api.cakephp.org
+The questions used in the test are public, but heavily copyrighted. To read them, you need DVLA's official materials. These do not come cheap (£11.99 for the book, £6.99 for the website), nor are they very easy to use. The questions change often, so library and second-hand copies of the book go out of date fast. 
 
-The Bakery - everything CakePHP
-http://bakery.cakephp.org
+We know from our own experience that as a result, many people don't bother buying the books, and try to wing the test.
 
-The Show - live and archived podcasts about CakePHP and more
-http://live.cakephp.org
+Worryingly, some do succeed - so some drivers out there are less safe than they should be.
 
-CakePHP Google Group - community mailing list and forum
-http://groups.google.com/group/cake-php
+Why have you done this?
+First and foremost, we want to make it easier to practice the test, so that everyone is safer on the roads.
+We want to give experienced drivers (as well as learners) an incentive to revise - not a financial disincentive. 
+We want to make it really simple and easy to practise, which it isn't with the official materials.
+We want to add features that aren't possible with the official materials, like support for different languages, and linking questions to the relevant bit of the Highway Code.
+We want other people to build things we haven't even thought of yet to make it even easier to study for the theory test.
+Who built this site?
 
-#cakephp on irc.freenode.net - chat with CakePHP developers
-irc://irc.freenode.net/cakephp
+A team of four people in a weekend at Young Rewired State. The source code is available under the GPL.
 
-CakeForge - open development for CakePHP
-http://cakeforge.org
+...Where did you get the data?
 
-CakePHP gear
-http://www.cafepress.com/cakefoundation
+We found it on the internet. It's the full mid-2009 question set. If you have a more recent copy, please let us know.
 
-Recommended Reading
-http://astore.amazon.com/cakesoftwaref-20/
+Can I have a copy?
+
+Yes - There is a zipped schema in the app/config/sql folder. Let us know if you do anything fun with it.
+
+Can I contribute?
+
+Yes please! Just get in touch.
