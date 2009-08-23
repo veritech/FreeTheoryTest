@@ -6,19 +6,16 @@
 			
 			echo $html->css('yui.css');
 			echo $html->css('main.css');
+			echo $html->css('style.css');
 			echo $javascript->link('jquery-1.3.2.min.js');
 		?>
 		<title><?php echo $title_for_layout; ?></title>
 	</head>
 	<body>
-		<div id="doc">
-			<div id="hd">
-			</div>
-			<div id="bd">
-				<?php echo $content_for_layout; ?>
-			</div>
-			<div id="ft">
-			</div>
-		</div>
+		<body id="homebody">
+		<h1 id="homelogo">Free The Theory</h1>
+		<div id="content">
+			<?php echo $content_for_layout; ?>
+		<div>
 	</body>
 </html>

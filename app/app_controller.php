@@ -39,5 +39,8 @@ class AppController extends Controller {
 	var $components = array('Session');
 	var $helpers = array('html','form','session','javascript');
 	
+	function beforeFilter(){
+		$this->pageTitle = "Free The Theory Test";
+	}
 }
 ?>

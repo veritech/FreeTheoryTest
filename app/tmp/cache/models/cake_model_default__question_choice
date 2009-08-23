@@ -1,2 +1,2 @@
-1251035623
+1337352606
 a:6:{s:11:"Question_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:11;}s:9:"Choice_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:11;}s:11:"Choice_text";a:4:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:255;}s:14:"Choice_correct";a:4:{s:4:"type";s:5:"float";s:4:"null";b:1;s:7:"default";N;s:6:"length";N;}s:17:"Choice_Image_Path";a:4:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:255;}s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";}}

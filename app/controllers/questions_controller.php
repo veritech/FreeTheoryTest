@@ -8,6 +8,8 @@ class QuestionsController extends AppController {
 	var $totalQuestions = 50;
 	
 	function beforeFilter(){
+		parent::beforeFilter();
+		
 		fb($this->Session->read('user.test.start'),"Start Time");
 		fb($this->Session->read('user.test.questions'),"List of questions");
 		fb($this->Session->read('user.test.current_question'),"Current Question");

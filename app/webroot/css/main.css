@@ -5,6 +5,22 @@
 fieldset{
 	width:80%;
 }
+#content{
+	text-align:center;
+	width: 80%;
+	margin: 0 auto;
+}
+.question.view{
+	width:70%;
+	margin: auto;
+}
+.question.view h2{
+	font-size:138%;
+	margin: 1em 0;
+}
+.question.view legend{
+	color:#fff !important;
+}
 .question.view fieldset label{
 	float:left;
 	width: 70%;
@@ -13,7 +29,6 @@ fieldset{
 	float:left;
 	width:29%;
 }
-
 
 dl dt.correct, dl dt.wrong{
 	display:block;

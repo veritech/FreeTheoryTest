@@ -70,3 +70,8 @@ AND
 2009-08-23 13:58:24 Warning: Warning (2): Invalid argument supplied for foreach() in [CORE/cake/libs/model/model.php, line 2194]
 2009-08-23 14:33:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/next.ctp, line 9]
 2009-08-23 14:34:43 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/next.ctp, line 9]
+2009-08-23 15:38:17 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/view.ctp, line 13]
+2009-08-23 15:39:07 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/view.ctp, line 14]
+2009-08-23 15:39:17 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/view.ctp, line 14]
+2009-08-23 15:39:24 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/view.ctp, line 14]
+2009-08-23 15:39:34 Warning: Warning (2): Invalid argument supplied for foreach() in [APP/views/questions/view.ctp, line 14]
